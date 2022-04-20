@@ -74,6 +74,12 @@ $active ='donate';
 <div class="font-italic">Address<span style="color:red">*</span></div>
 <div><textarea class="form-control" name="address" required></textarea></div></div>
 </div>
+<div class="form-check mt-2 mb-2">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+  I hereby declare that the information provided is true and correct.
+  </label>
+</div>
 <div class="row">
   <div class="col-lg-4 mb-4">
   <div><input type="submit" name="submit" class="btn btn-primary" value="Submit" style="cursor:pointer"></div>
